@@ -1,0 +1,17 @@
+{
+  "name": "@ming/leak-detection",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.26.0",
+    "lerna": "^6.5.1",
+    "pnpm": "^7.28.0",
+    "rollup": "^3.18.0"
+  },
+  "engines": {
+    "node": ">=14.21.0",
+    "pnpm": ">=7"
+  }
+}

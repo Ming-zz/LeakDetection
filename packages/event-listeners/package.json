@@ -1,0 +1,34 @@
+{
+  "name": "@ming/leak-detection-event-listeners",
+  "version": "0.1.0",
+  "description": "detect unremoved event listeners",
+  "keywords": [
+    "web-performance",
+    "leak-detection"
+  ],
+  "author": "Mingzz <184653774@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dict"
+  ],
+  "type": "module",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup --config",
+    "start": "rollup --config --watch",
+    "test": "node ./__tests__/event-listeners.test.js"
+  },
+  "devDependencies": {
+    "rollup": "^3.18.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  }
+}
